@@ -19,11 +19,11 @@ const Service = (props) => {
                         image={img}
                         alt="green iguana"
                     />
-                    <Typography variant="h5" component="div">
+                    <Typography variant="h5" sx={{ m: 2 }} component="div">
                         {name}
                     </Typography>
 
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography sx={{ m: 2 }} variant="body2" color="text.secondary">
                         {description}
                     </Typography>
                 </CardContent>
